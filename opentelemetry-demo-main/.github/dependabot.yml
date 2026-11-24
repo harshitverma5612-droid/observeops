@@ -1,0 +1,14 @@
+# Copyright The OpenTelemetry Authors
+# SPDX-License-Identifier: Apache-2.0
+
+# Dependency updates are handled by Renovate, see renovate.json5. This file is
+# retained solely for automated tooling to see we do automated dependency
+# updates, as not all such scanners recognize the use of Renovate.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    cooldown:
+      default-days: 3
+    directory: "/"
+    schedule:
+      interval: "yearly"
